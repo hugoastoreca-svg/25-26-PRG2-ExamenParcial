@@ -1,10 +1,15 @@
 
 class Productos {
-private String nombreproducto;
+private String nombreProducto;
 private String codigoProducto;
 private int precioProducto;
 private int stockProducto;
     public Productos(String nombreProducto, String codigoProducto, int precioProducto, int stockProducto) {
+        this.nombreProducto = nombreProducto;
+        this.codigoProducto = codigoProducto;
+        this.precioProducto = precioProducto;
+        this.stockProducto = stockProducto;
+        
     }
 
     public String nombrarProducto() {
