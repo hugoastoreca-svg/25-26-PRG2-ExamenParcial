@@ -9,15 +9,15 @@ private int stockProducto;
         this.codigoProducto = codigoProducto;
         this.precioProducto = precioProducto;
         this.stockProducto = stockProducto;
-        
+
     }
 
     public String nombrarProducto() {
-
+        return this.nombreProducto;
     }
 
     public String nombrarCodigo() {
-
+        return this.codigoProducto;
     }
 
     public int ponerPrecio() {
@@ -29,7 +29,7 @@ private int stockProducto;
     }
 
     public int preguntarPrecio(String nombreProducto) {
-
+    
     }
 
     public int preguntarStock(String nombreProducto, int stockProducto) {
