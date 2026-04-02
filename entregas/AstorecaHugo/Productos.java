@@ -1,9 +1,11 @@
 
 class Productos {
-private String nombreProducto;
-private String codigoProducto;
-private int precioProducto;
-private int stockProducto;
+
+    private String nombreProducto;
+    private String codigoProducto;
+    private int precioProducto;
+    private int stockProducto;
+
     public Productos(String nombreProducto, String codigoProducto, int precioProducto, int stockProducto) {
         this.nombreProducto = nombreProducto;
         this.codigoProducto = codigoProducto;
@@ -29,11 +31,11 @@ private int stockProducto;
     }
 
     public int preguntarPrecio(String nombreProducto) {
-    
+
     }
 
     public int preguntarStock(String nombreProducto, int stockProducto) {
-
+        return this.stockProducto = stockProducto;
     }
 
 }
