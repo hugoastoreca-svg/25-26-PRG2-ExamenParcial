@@ -30,7 +30,8 @@ class Pedidos {
     }
 
     public void preguntarEstdado(String estadoCompra) {
-
+        this.estadoCompra = estadoCompra;
+        System.out.println("El estado de su compra es: " + estadoCompra);
     }
 
     public void realizarPedido(String productosComprados) {
