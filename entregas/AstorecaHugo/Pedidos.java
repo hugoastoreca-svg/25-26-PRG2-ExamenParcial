@@ -29,7 +29,7 @@ class Pedidos {
         return this.estadoCompra;
     }
 
-    public void preguntarEstdado(String estadoCompra) {
+    public void preguntarEstado(String estadoCompra) {
         this.estadoCompra = estadoCompra;
         System.out.println("El estado de su compra es: " + estadoCompra);
     }
