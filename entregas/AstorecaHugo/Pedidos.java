@@ -26,7 +26,7 @@ class Pedidos {
     }
 
     public String consultarEstado() {
-
+        return this.estadoCompra;
     }
 
     public void preguntarEstdado(String estadoCompra) {
