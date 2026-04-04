@@ -7,7 +7,10 @@ class Pedidos {
     private String estadoCompra;
 
     public Pedidos(String nombreComprador, String productosComprados, String fechaCompra, String estadoCompra) {
-
+        this.nombreComprador = nombreComprador;
+        this.productosComprados = productosComprados;
+        this.fechaCompra = fechaCompra;
+        this.estadoCompra = estadoCompra;
     }
 
     public String nombrarComprador() {
