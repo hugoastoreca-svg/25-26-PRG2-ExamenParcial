@@ -35,6 +35,7 @@ class Pedidos {
     }
 
     public void realizarPedido(String productosComprados) {
-
+        this.productosComprados = productosComprados;
+        System.out.println("Ha realizado su pedido de: " + productosComprados);
     }
 }
