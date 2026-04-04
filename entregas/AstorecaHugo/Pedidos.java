@@ -14,7 +14,7 @@ class Pedidos {
     }
 
     public String nombrarComprador() {
-
+        return this.nombreComprador;
     }
 
     public String seleccionarProductos() {
