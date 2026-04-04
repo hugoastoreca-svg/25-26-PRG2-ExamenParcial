@@ -18,7 +18,7 @@ class Pedidos {
     }
 
     public String seleccionarProductos() {
-
+        return this.productosComprados;
     }
 
     public String calendarizarFecha() {
