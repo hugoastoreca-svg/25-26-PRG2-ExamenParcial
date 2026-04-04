@@ -22,7 +22,7 @@ class Pedidos {
     }
 
     public String calendarizarFecha() {
-
+        return this.fechaCompra;
     }
 
     public String consultarEstado() {
