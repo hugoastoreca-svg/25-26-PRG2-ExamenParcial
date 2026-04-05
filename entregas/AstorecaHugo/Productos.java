@@ -27,9 +27,11 @@ class Productos {
     }
 
     public int ponerStock() {
-
+        return this.stockProducto;
     }
-
+    private int actualizarStock(int stockProducto) {
+        return this.stockProducto = stockProducto;
+    }
     public int preguntarPrecio(String nombreProducto) {
 
     }
