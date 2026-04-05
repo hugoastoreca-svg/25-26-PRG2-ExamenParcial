@@ -14,7 +14,7 @@ class Tienda {
     }
 
     public void mostrar() {
-
+        imprimriDatos();
     }
     private void imprimriDatos(){
         System.out.println("Nombre de la tienda: " + this.nombreTienda);
