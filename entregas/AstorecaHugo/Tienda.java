@@ -6,7 +6,9 @@ class Tienda {
     public Tienda(String nombreTienda) {
         this.nombreTienda = nombreTienda;
     }
-    
+    private String obtenerNombre(){
+        return this.nombreTienda;
+    }
     public String nombrarTienda() {
         return this.nombreTienda;
     }
@@ -14,5 +16,7 @@ class Tienda {
     public void mostrar() {
 
     }
-
+    private void imprimriDatos(){
+        System.out.println("Nombre de la tienda: " + this.nombreTienda);
+    }
 }
